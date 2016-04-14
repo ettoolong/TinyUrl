@@ -1,0 +1,22 @@
+{
+  "title": "Tiny url",
+  "name": "tinyurl",
+  "version": "0.0.1",
+  "description": "Make short URL by TinyURL service.",
+  "main": "data/js/addon-script.js",
+  "author": "ettoolong@hotmail.com",
+  "homepage": "https://addons.mozilla.org/zh-TW/firefox/user/ett-chung/",
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ],
+  "permissions":{
+    "multiprocess": true,
+    "private-browsing": true
+  },
+  "icon": "resource://@tinyurl/data/images/icon.svg",
+  "icon64": "resource://@tinyurl/data/images/icon.svg"
+}
