@@ -18,7 +18,7 @@ function showNotification(message) {
 
 function makeShortURL(long_url) {
   //Encode URL
-  var url = encodeURIComponent(long_url);
+  let url = encodeURIComponent(long_url);
 
   let apiUrl = "https://tinyurl.com/api-create.php?url=" + url;
   let req = new xhr.XMLHttpRequest();
