@@ -1,6 +1,6 @@
 'use strict';
 /*
- * This Source Code is modified from https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Using_the_clipboard 
+ * This Source Code is modified from https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Using_the_clipboard
  */
 
 //Cc = Components.classes

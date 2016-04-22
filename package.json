@@ -1,7 +1,7 @@
 {
   "title": "Tiny url",
   "name": "tinyurl",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Make short URL by TinyURL service.",
   "main": "data/js/addon-script.js",
   "author": "ettoolong@hotmail.com",
@@ -19,5 +19,15 @@
     "private-browsing": true
   },
   "icon": "resource://@tinyurl/data/images/icon.svg",
-  "icon64": "resource://@tinyurl/data/images/icon.svg"
+  "icon64": "resource://@tinyurl/data/images/icon.svg",
+  "preferences": [{
+    "type": "bool",
+    "name": "urlbarIcon",
+    "value": false,
+    "title": "Display URL bar icon",
+    "description": "Display URL bar icon"
+  }],
+  "contributors":[
+    "shyangs (github.com)"
+  ]
 }
