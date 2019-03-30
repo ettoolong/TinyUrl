@@ -1,0 +1,81 @@
+{
+  "extName": {
+    "message": "Shorten URL",
+    "description": ""
+  },
+  "extDescription": {
+    "message": "Make short URL by TinyURL/reurl service.",
+    "description": ""
+  },
+  "copiedToClipboard": {
+    "message": "$SHORTURL$ has been copied to the clipboard.  Shortened from $LONGURL$",
+    "placeholders": {
+      "shorturl" : {
+        "content" : "$1"
+      },
+      "longurl" : {
+        "content" : "$2"
+      }
+    }
+  },
+  "error": {
+    "message": "Error"
+  },
+  "creationFailed": {
+    "message": "Short URL creation failed"
+  },
+  "processing": {
+    "message": "Processing..."
+  },
+  "shortenedURL": {
+    "message": "Shortened URL: "
+  },
+  "btnCopy": {
+    "message": "Copy to clipboard"
+  },
+  "simplifyCopy": {
+    "message": "Copy"
+  },
+  "fullUrl": {
+    "message": "Full URL"
+  },
+  "withoutProtocol": {
+    "message": "Without 'https://'"
+  },
+  "copyUrl": {
+    "message": "Toolbar button copy shortened URL:"
+  },
+  "automatic": {
+    "message": "Auto"
+  },
+  "manual": {
+    "message": "Manual"
+  },
+  "showNotifications": {
+    "message": "Show notification when copying is completed."
+  },
+  "autoClosePopup": {
+    "message": "Close pop-up panel after copying is completed."
+  },
+  "contextMenuOptions": {
+    "message": "Shorten URL by context menu:"
+  },
+  "currentPage": {
+    "message": "Current page"
+  },
+  "hyperlink": {
+    "message": "Hyperlink"
+  },
+  "imageSource": {
+    "message": "Image source"
+  },
+  "service": {
+    "message": "Service"
+  },
+  "tinyurl": {
+    "message": "TinyUrl"
+  },
+  "reurl": {
+    "message": "reurl"
+  }
+}

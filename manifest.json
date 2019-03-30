@@ -1,0 +1,46 @@
+{
+  "description": "__MSG_extDescription__",
+  "manifest_version": 2,
+  "name": "__MSG_extName__",
+  "version": "0.0.3",
+  "homepage_url": "https://github.com/ettoolong/TinyUrl",
+  "icons": {
+    "16": "icon/icon.svg"
+  },
+  "applications": {
+    "gecko": {
+      "id": "shortenUrl@ettoolong",
+      "strict_min_version": "66.0"
+    }
+  },
+  "developer": {
+    "name": "Ett Chung",
+    "url": "https://github.com/ettoolong/TinyUrl"
+  },
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "__MSG_extName__",
+    "default_icon": "icon/icon.svg"
+  },
+  "background": {
+    "scripts": ["js/background.js"]
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "clipboardWrite",
+    "contextMenus",
+    "notifications",
+    "https://tinyurl.com/*"
+  ],
+  "optional_permissions": [
+    "https://reurl.cc/api/shorten/v2",
+    "https://reurl.cc/main/tw"
+  ],
+  "default_locale": "en",
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false,
+    "browser_style": true
+  }
+}
